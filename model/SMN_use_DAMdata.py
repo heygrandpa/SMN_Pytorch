@@ -35,7 +35,7 @@ class SCN_all_share(nn.Module):
         # 参数设定
         self.max_num_utterance = config.max_num_utterance
         self.negative_samples = config.negative_samples
-        self.max_sentence_len = config.max_num_utterance
+        self.max_sentence_len = config.max_sentence_len
         self.word_embedding_size = config.word_embedding_size
         self.rnn_units = config.rnn_units
         self.total_words = config.total_words
